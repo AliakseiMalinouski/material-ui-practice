@@ -87,6 +87,8 @@ const App = () => {
         <Basket cartOpen={isCartOpen} closeCart={ () => setIsCartOpen(false)} order={order} removeFromOrder={removeFromOrder}/>
         <Snack isOpen={isSnackOpen} handleClose={() => setIsSnackOpen(false)}/>
         </>
+
+        // text
     );
 }
 
